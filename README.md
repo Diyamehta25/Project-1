@@ -1,4 +1,4 @@
-# Northern Trust Hackathon Project  
+
 # Mini Payment Gateway Simulator
 
 A **full-stack payment gateway simulation** built by a team of 5 for the Northern Trust Hackathon.  
