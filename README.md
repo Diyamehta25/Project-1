@@ -91,6 +91,25 @@ CREATED → PROCESSING → SUCCESS
 If a payment fails, a **Retry button automatically fills the previous details**.
 
 ---
+## 🏗 System Architecture
+
+```
+Browser (User Interface)
+        │
+        ▼
+Frontend (HTML, CSS, JavaScript)
+        │
+        ▼
+Flask API Server
+        │
+        ▼
+Payment Processing Engine
+        │
+        ▼
+SQLite Database
+```
+
+The frontend communicates with the Flask API which handles payment logic, transaction validation, and database updates.
 ## 📷 Screenshots
 
 ### Login Page
@@ -339,3 +358,22 @@ flask-cors>=4.0.0
 # Authors
 
 Mini Payment Gateway Simulator
+
+Diya Mehta  
+Aryan Dhokare
+Omm Gavli
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
