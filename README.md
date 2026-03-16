@@ -91,6 +91,19 @@ CREATED → PROCESSING → SUCCESS
 If a payment fails, a **Retry button automatically fills the previous details**.
 
 ---
+## 📷 Screenshots
+
+### Login Page
+![Login](screenshots/login.png)
+
+### Send Payment
+![Payment](screenshots/payment.png)
+
+### Transaction History
+![History](screenshots/history.png)
+
+### Analytics Dashboard
+![Analytics](screenshots/analytics.png)
 
 ## Transaction History
 
@@ -325,5 +338,4 @@ flask-cors>=4.0.0
 
 # Authors
 
-Northern Trust Hackathon Team  
 Mini Payment Gateway Simulator
